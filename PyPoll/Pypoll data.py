@@ -5,7 +5,7 @@ import os
 import csv
 
 #Open path for CSV file
-voter_csv = os.path.join('election_data.csv')
+voter_csv = os.path.join("..", "Resources", "election_data.csv")
 
 #Create an empty dictionary to store candidates vote count
 vote_count = {}
